@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "CourseTab",
+  "description": "This extension shows your upcoming events on Courses in your new tab page..",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "*://dalton.org/",
+    "storage"
+    "webRequest"
+    "webRequestBlocking"
+  ],

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Dalton Courses</title>
+
+		<link href="../css/bootstrap.css" rel="stylesheet" />
+		<link href="../css/font-awesome.min.css" rel="stylesheet" />
+		<link href="../css/simplegrid.css" rel="stylesheet" />
+		<link href="../scss_gen/hamburger.css" rel="stylesheet" />
+
+		<script src="../js/jquery.js"></script>
+		<script src="../js/jquery.history.js"></script>
+		<script src="../js/coursesLib.js"></script>
+		<script src="../js/hamburger.js"></script>
+	</head>
+	<body style="overflow-x:hidden;">
+		<noscript>Please enable JavaScript. You can do this in <a href="chrome://settings/content">Content Settings</a>.</noscript>
+		<div id="page-content" style="overflow-x:hidden;">
+			<div id="loadingPage" class="page showing">
+				<i class="fa fa-4x fa-circle-o-notch fa-spin"></i>
+			</div>
+			<div id="notLoggedInPage" class="page">
+				<h1>You're not logged in!</h1>
+				<h4><strong>Log in on regular Courses and refresh the page to continue.</strong> There will be a sign in page here (eventually)</h4>
+			</div>
+			<div id="mainPage" class="page">
+				<div class="grid grid-pad">
+					<div class="col-1-3">
+						<div class="content">
+							<div id="calendarSpot"></div>
+						</div>
+					</div>
+					<div class="col-1-3">
+						<div class="content">
+							<h3>Upcoming events</h3>
+							<ul id="upcomingEventList">
+
+							</ul>
+						</div>
+					</div>
+					<div class="col-1-3">
+						<div class="content">
+							<h3>Courses</h3>
+							<ul id="courseList">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		 
+		<div id="hamburger-icon" class="navbar">
+			<i class="fa fa-bars"></i>
+		</div>
+	</body>
+</html>
