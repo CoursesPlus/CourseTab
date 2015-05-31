@@ -9,6 +9,10 @@
     "default_icon": "icon.png",
     "default_popup": "popup.html"
   },
+  
+    "chrome_url_overrides" : {
+    "newtab": "etc/newtab.html"
+  },
   "permissions": [
     "*://dalton.org/",
     "storage"
