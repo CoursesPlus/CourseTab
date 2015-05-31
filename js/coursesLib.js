@@ -60,7 +60,7 @@ window.coursesLib.getCourseList = function(doneFunc) {
 									name: $(this).text(),
 									url: $(this).attr("href")
 								});
-		})
+		});
 
 		doneFunc(respObj);
 	});
